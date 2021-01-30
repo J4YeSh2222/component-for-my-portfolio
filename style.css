@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
+:root{
+    --primary-color:#807BD2 ;
+}
+
+
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+
+hr{
+    margin: 2rem 0rem;
+}
 /* container */
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -16,3 +24,45 @@ body{
     margin: auto;
 }
 
+/* links */
+
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color) ;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+
+/*lists*/
+
+.no-bullet{
+    list-style: none;
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*navigation*/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation .link{
+    color: white;
+}
