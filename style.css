@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#807BD2 ;
+    --dark-gray: #687288;
 }
 
 
@@ -80,4 +81,24 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/*header*/
+.logo{
+    padding: 2rem;
+}
+
+.logo .image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.logo .heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.logo  .heading .heading-inverted{
+    color: var(--primary-color);
 }
